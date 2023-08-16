@@ -1,7 +1,6 @@
--- creates a tabel first_table in current db
--- does not fail if table exists
-CREATE TABLE IF NOT EXISTS first_table (
-	id INT,
-	name VARCHAR(256),
-	PRIMARY KEY(id)
+-- Script that creates a table
+-- Query to create the table 'id_not_null' in MySQL server
+CREATE TABLE IF NOT EXISTS id_not_null (
+       id INT DEFAULT 1,
+       name VARCHAR(256)
 );
