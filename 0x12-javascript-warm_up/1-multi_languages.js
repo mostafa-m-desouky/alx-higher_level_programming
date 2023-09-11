@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
-//prints C is fun,Python is cool and JavaScript is amazin
+//prints C is fun,Python is cool and JavaScript is amazing.
 
 
-const myVar = 'C is fun\nPython is cool\nJavaScript is amazing';
+const myVar = "C is fun\nPython is cool\nJavaScript is amazing";
 console.log(myVar);
